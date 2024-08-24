@@ -1,0 +1,60 @@
+{
+  "screamoalbums": [
+    {
+      "id": 1,
+      "artist": "Daitro",
+      "album": "Y",
+      "year": 2004,
+      "genre": "Screamo"
+    },
+    {
+      "id": 2,
+      "artist": "Beau Navire",
+      "album": "Life Moves",
+      "year": 2011,
+      "genre": "Screamo"
+    },
+    {
+      "id": 3,
+      "artist": "Pg. 99",
+      "album": "Document #8",
+      "year": 2001,
+      "genre": "Screamo"
+    },
+    {
+      "id": 4,
+      "artist": "Saetia",
+      "album": "A Retrospective",
+      "year": 2001,
+      "genre": "Screamo"
+    },
+    {
+      "id": 5,
+      "artist": "Orchid",
+      "album": "Dance Tonight! Revolution Tomorrow!",
+      "year": 2000,
+      "genre": "Screamo"
+    },
+    {
+      "id": 6,
+      "artist": "Senza",
+      "album": "Even a Worm Will Turn",
+      "year": 2019,
+      "genre": "Blackened Screamo"
+    },
+    {
+      "id": 7,
+      "artist": "The Caution Children",
+      "album": "Safe Crusades / No Judgements / And Baby",
+      "year": 2011,
+      "genre": "Screamo"
+    },
+    {
+      "id": 8,
+      "artist": "Circle Takes the Square",
+      "album": "As the Roots Undo",
+      "year": 2004,
+      "genre": "Screamo"
+    }
+  ]
+}

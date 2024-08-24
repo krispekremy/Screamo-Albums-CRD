@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Screamo Albums</h1>
+
+        <div class="mb-4">
+            <h3>Add Album</h3>
+            <form id="album-form">
+                <div class="mb-3">
+                    <label for="album-artist" class="form-label">Album Artist</label>
+                    <input type="text" class="form-control" id="album-artist" required>
+                </div>
+                <div class="mb-3">
+                    <label for="album-name" class="form-label">Album Name</label>
+                    <input type="text" class="form-control" id="album-name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="album-year" class="form-label">Release Year</label>
+                    <input type="text" class="form-control" id="album-year" required>
+                </div>
+                <div class="mb-3">
+                    <label for="album-genre" class="form-label">Album Genre</label>
+                    <input type="text" class="form-control" id="album-genre" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Save Album</button>
+            </form>
+        </div>
+
+        <button id="show-albums-button" class="btn btn-secondary mb-4">Show Albums</button>
+
+        <h3>Albums List</h3>
+        <div id="albums-container"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
